@@ -5,6 +5,15 @@
     top: 0;
 }
 
+body{
+    margin: -1px;
+}
+
+#rectangle{
+    width: 100;
+    height: 100;
+}
+
 h1{
     color:blue;
 }
