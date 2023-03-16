@@ -102,7 +102,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 90vh;
+    height: 45vh;
     top: 10vh;
     display: flex;
     align-items: center;
@@ -113,12 +113,24 @@ body{
 .screen1_conteiner {
     max-width: 1400px;
     display: flex;
+    justify-content: space-between;
     height: 100%;
     width: 100%;
 }
 
+.quote {
+    text-align: center;
+    display: flex;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5rem;
+    background-color: #343333;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 13%;
+    
+}
+
 .sign_in{
-    position: relative;
     text-align: center;
     display: flex;
     align-items: center;
@@ -127,8 +139,9 @@ body{
     width: 30rem;
     max-width: 25%;
     font-family: inherit;
-    top: 10%;
-    left: 75%;
+    color: black;
+    margin-top: 5%;
+    margin-right: 3%;
 }
 
 .sign_in input {
@@ -155,6 +168,10 @@ body{
     color: white;
     font-size: 1rem;
 }
+
+
+
+
 
 
 
