@@ -97,19 +97,16 @@ body{
 
 
 .screen1_background{
-    background-image: url(img/2.jpg);
+    background-image: url(img/2.png);
     background-position: 0.0;
     background-size: cover;
     background-repeat: no-repeat;
-    
     width: 100%;
     height: 90vh;
     top: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    
 }
 
 
@@ -133,7 +130,6 @@ body{
     top: 10%;
     left: 75%;
 }
-
 
 .sign_in input {
     display: flex;
@@ -160,16 +156,6 @@ body{
     font-size: 1rem;
 }
 
-.sign_in button:hover {
-    margin: 3rem;
-    margin-top: 2rem;
-    background: #F26D22;
-    border: 1px solid #E2DFDD;
-    border-radius: 10px;
-    min-height: 10%;
-    min-width: 50%;
-    font-family: inherit;
-    color: white;
-    font-size: 1rem;
-}
+
+
 
