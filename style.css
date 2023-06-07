@@ -92,6 +92,17 @@ body {
     margin-right: 1%;
 }
 
+.sign_up a {
+    color: white;
+    width: 10rem;
+    height: 2.5rem;
+    background: #F26D22;
+    border: 1px solid #E2DFDD;
+    margin: auto 0;
+    border-radius: 10px;
+}
+
+
 .sign_up button {
     color: white;
     width: 10rem;
@@ -152,6 +163,14 @@ body {
     background-color: #343333;
     border-radius: 5%;
     padding: 12px 0;
+    max-width: 22%;
+    max-height: 40vh;
+}
+
+.sign_in form {
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem;
 }
 
 .sign_in h2{
@@ -164,11 +183,12 @@ body {
     border: solid #f2f0f0;
     padding: 5px 20px;
     padding-left: px;
-    margin: 2rem;
+    margin: 1.5rem;
     margin-bottom: 0.2rem;
     outline: 0;
     width: 85%;
     font-size: 1rem;
+    display: flex;
 }
 
 .sign_in button {
@@ -183,7 +203,6 @@ body {
     color: white;
     font-size: 1rem;
 }
-
 
 
 .screen1_background2 {
@@ -320,8 +339,9 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     
-    opacity: 0.6;
+    opacity: 0.4;
 }
+
 
 .pricing button {
     background: #F26D22;
@@ -388,6 +408,33 @@ footer {
 .links a {
     margin: 0.5rem;
 }
+
+.download {
+    /* background-color: #F26D22; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    max-width: 30%;
+}
+
+.download img{
+    height: 100%;
+    width: 100%;
+    /* background-color: #0088a9; */
+
+}
+
+/* #google_play {
+    height: 25%;
+    width: 25%;
+}
+
+#appstore {
+    height: 25%;
+    width: 25%;
+} */
+
 .phones {
     display: flex;
     justify-content: space-around;
