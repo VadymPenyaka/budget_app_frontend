@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Catamaran', sans-serif;
   }
   body {
     background-color: #f7f9fd;
@@ -33,7 +33,6 @@
   }
   .wrapper h3 {
     color: #434343;
-    font-weight: 500;
     margin-bottom: 0.6em;
   }
   .container input {
@@ -42,9 +41,9 @@
     padding: 0.6em 0.3em;
     border: 1px solid #d0d0d0;
     border-radius: 0.3em;
-    color: #414a67;
+    color: #434343;
     outline: none;
-    font-weight: 400;
+    
     margin-bottom: 0.6em;
   }
   .container input:focus {
@@ -66,13 +65,13 @@
     padding: 1.2em;
   }
   .output-container p {
-    font-weight: 500;
+    
     margin-bottom: 0.6em;
   }
   .output-container span {
     display: block;
     text-align: center;
-    font-weight: 400;
+    
     color: #e5e5e5;
   }
   .submit {
@@ -83,7 +82,7 @@
     outline: none;
     color: #ffffff;
     padding: 0.6em 1.2em;
-    border-radius: 0.3em;
+    border-radius: 0.5em;
     cursor: pointer;
   }
   .list {
@@ -101,7 +100,7 @@
     grid-template-columns: 3fr 2fr 1fr 1fr;
   }
   .product {
-    font-weight: 500;
+    
     color: #434343;
   }
   .amount {
@@ -116,6 +115,37 @@
   .product-title {
     margin-bottom: 1em;
   }
+
+  .exit_button_div {
+    width: 100%;
+    text-align: center;
+  }
+
+  .exit_button_div a  {
+    font-size: 1em;
+    margin-top: 0.8em;
+    background-color: #F26D22;;
+    height: fit-content;
+    width: fit-content;
+    
+    padding: 0.6em 1.2em;
+    border-radius: 0.5em;
+    cursor: pointer;
+  }
+
+  .exit_button_div  button{
+    font-size: 1em;
+    margin-top: 0.8em;
+    background-color: #F26D22;;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    padding: 0.6em 1.2em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    width: 35%;
+  }
+
   .hide {
     display: none;
   }
